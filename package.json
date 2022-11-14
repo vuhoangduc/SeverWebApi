@@ -1,0 +1,37 @@
+{
+  "name": "tutorio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "nodemon src/main.js",
+    "watch": "node-sass -w src/res/scss/app.scss src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuhoangduc/nodejs.blog.git"
+  },
+  "keywords": [
+    "vuhoangduc"
+  ],
+  "author": "Ducvu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vuhoangduc/nodejs.blog/issues"
+  },
+  "homepage": "https://github.com/vuhoangduc/nodejs.blog#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.7.1"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  }
+}

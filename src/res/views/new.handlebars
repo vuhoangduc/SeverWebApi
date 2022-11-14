@@ -1,0 +1,18 @@
+<div class="mt-4">
+
+    <div class="row">
+        {{#each couses}}
+        <div class="col-sm-6 col-lg-4">
+                <div class="card">
+                <img class="card-img-top" src="{{this.img}}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.title}}</h5>
+                    <p class="card-text">{{this.id}}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                </div>
+        </div>
+        {{/each}}
+    </div>
+
+</div>
